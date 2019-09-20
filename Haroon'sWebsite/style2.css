@@ -1,0 +1,73 @@
+body {
+  background: url(img/tokyo2.jpg);
+  background-repeat: no-repeat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.navbar-brand {
+  pointer-events: none;
+}
+
+.navbar-custom {
+  background-color: #0009;
+}
+
+.nav-item:hover {
+  transition: 0.2s ease-in;
+  border-bottom: 2px solid #fff600;
+}
+
+.about-me {
+  margin-top: 100px;
+}
+
+.jumbotron {
+  margin-top: 50px;
+  background-color: #0009 !important;
+}
+
+.btn-warning {
+  color: white !important;
+}
+
+.btn:hover {
+  transition: 0.2s ease-in;
+  background-color: #ffc107 !important;
+}
+
+.profilePic {
+  border-radius: 0.3rem;
+}
+
+.about-me {
+  position: relative;
+  left: 20px;
+}
+
+.controls {
+  margin-right: 0 !important;
+}
+
+.icons {
+  font-size: 45px;
+}
+
+.g-hub {
+  color: white !important;
+}
+
+.g-hub:hover {
+  transition: 0.2s ease-in;
+  color: #ffc107 !important;
+  text-decoration: none;
+}
+
+.linkd {
+  color: white !important;
+}
+
+.linkd:hover {
+  transition: 0.2s ease-in;
+  color: #ffc107 !important;
+  text-decoration: none;
+}

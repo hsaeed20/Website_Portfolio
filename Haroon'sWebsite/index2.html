@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <title>Haroon's Website</title>
+  </head>
+  <header>
+      <div class="container">
+          <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-custom">
+            <a class="navbar-brand" href="#">Haroon's Portfolio</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse text-center"
+              id="navbarNavAltMarkup"
+            >
+              <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="http://127.0.0.1:5500/index.html#"
+                  >Home</a
+                >
+                <a class="nav-item nav-link active" href="http://127.0.0.1:5500/index2.html#">About Me <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="http://127.0.0.1:5500/index3.html">Projects</a>
+              </div>
+            </div>
+          </nav>
+  </header>
+  <body>
+    
+    <div class="about-title">
+    <h1 class= "about-me text-center text-white"><span class=>About</span> <span class="text-warning">Me</span></h1>
+    </div>
+
+    <div class="jumbotron text-white">
+      <div class = "floats">
+            <img class="profilePic" style="height:300px; width: 300px;" src="img/profile_pic.jpg">
+            <p class="par lead">I am currently a senior student at Texas Tech University. My favorite things about programming is that your imagination is limitless. You can never stop thinking about new ideas that'll make you grow as a person. Much like how art paintings are, programming is no different as it requires, persistence, hard work, and passion.</p>
+            <p class="par-2">Please take a look at my resume and my social media profiles if you'd like to learn more about my programming abilities.</p>
+      </div>
+      
+      <div class="controls">
+            <a class="btn btn-warning btn-lg bg-transparent" href="#" role="button">Resume</a>
+
+      <div class="icons">
+        <a class="g-hub" href= "https://github.com/hsaeed20">
+          <i class="fab fa-github"></i>
+        </a>
+  
+        <a class="linkd" href= "https://www.linkedin.com/in/haroon-saeed-141257b2/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+      </div>
+     </div>
+    </div>
+          
+     
+  </body>
+
+  <style>
+    /* Extra Small devices (portrait phones)  CLEAR*/ 
+    @media screen and (max-width: 575px) {
+    .profilePic{
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+    .jumbotron{
+      height: 800px;
+    }
+    .controls{
+      position: relative;
+      right: 0px;
+    }
+    
+}
+    /* Small devices (landscape phones) Clear*/
+  @media screen and (min-width: 576px) {
+  
+    .profilePic{
+      float:none;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+    .jumbotron{
+      height: 800px;
+    }
+    .par {
+  position: relative;
+  left: 20px;
+}
+
+.par-2 {
+  position: relative;
+  left: 20px;
+}
+}
+
+  /* medium devices (tablets) */
+@media screen and (min-width: 768px) {
+  .profilePic{
+    float: left;
+  }
+  .par-2{
+    padding-left: 300px;
+  }
+  .controls{
+    display:inline-block;
+    position:relative;
+    bottom:55px;
+  }
+  .par {
+  position: relative;
+  left: 20px;
+}
+
+.par-2 {
+  position: relative;
+  left: 20px;
+}
+}
+
+@media screen and (min-width: 793px) {
+  .profilePic{
+    float: left;
+  }
+  .par {
+  position: relative;
+  left: 20px;
+}
+  .par-2{
+    padding-left: 300px;
+    position: relative;
+  left: 20px;
+  }
+  .controls{
+    display:inline-block;
+    position:relative;
+    bottom:25px;
+  }
+}
+
+@media screen and (min-width: 862px) {
+  .profilePic{
+    float: left;
+    margin-top: 0px;
+  }
+  .par-2{
+    padding-left: 300px;
+  }
+  .controls{
+    display:inline-block;
+    position:relative;
+    top:25px;
+    right:300px;
+  }
+}
+
+@media screen and (min-width: 946px) {
+  .profilePic{
+    float: left;
+    margin-top: 0px;
+  }
+  .par-2{
+    padding-left: 300px;
+  }
+  .controls{
+    display:inline-block;
+    position:relative;
+    top:55px;
+    right:300px;
+  }
+}
+/* Large devices (desktops)*/
+@media screen and (min-width: 992px) {
+  .profilePic{
+    float: left;
+  }
+  
+}
+
+@media screen and (min-width: 1060px) {
+  .profilePic{
+    float: left;
+  }
+  .controls{
+    display:inline-block;
+    position:relative;
+    top:85px;
+  }
+  
+}
+/* Extra large devices (large desktops) */ 
+@media screen and (min-width: 1200px) {
+  .profilePic{
+    float: left;
+  }
+  .jumbotron{
+    height: 600px;
+  }
+  .par {
+  position: relative;
+  left: 20px;
+}
+
+.par-2 {
+  position: relative;
+  left: 20px;
+}
+}
+
+@media screen and (min-width: 1216px) {
+
+  .profilePic{
+    float: left;
+  }
+  .jumbotron{
+    height: 600px;
+  }
+  .par {
+  position: relative;
+  left: 20px;
+}
+
+.par-2 {
+  position: relative;
+  left: 20px;
+}
+.controls{
+  display:inline-block;
+    position:relative;
+    top:115px;
+}
+}
+
+@media screen and (min-width: 1346px) {
+  .profilePic{
+    float: left;
+  }
+  .jumbotron{
+    height: 600px;
+  }
+  .par {
+  position: relative;
+  left: 20px;
+}
+
+.par-2 {
+  position: relative;
+  left: 20px;
+}
+.controls{
+  display:inline-block;
+    position:relative;
+    top:140px;
+}
+}
+
+  </style>
+</html>
+<script src="https://kit.fontawesome.com/286b2a4216.js"></script>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  crossorigin="anonymous"
+></script>

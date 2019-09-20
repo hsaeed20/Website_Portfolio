@@ -1,0 +1,41 @@
+body {
+  background: url(img/tokyo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; /*fills up the whole background image for page so no white parts show up*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.navbar-brand {
+  pointer-events: none;
+}
+
+.navbar-custom {
+  background-color: #0009;
+}
+
+.nav-item:hover {
+  transition: 0.2s ease-in;
+  border-bottom: 2px solid #fff600;
+}
+
+.jumbotron {
+  margin-top: 250px;
+}
+
+.name {
+  /*used to align the span tags on the block container*/
+  text-align: center;
+}
+
+.lead {
+  font-size: 1.7 rem !important;
+}
+
+.btn-warning {
+  color: white !important;
+}
+
+.btn:hover {
+  transition: 0.2s ease-in;
+  background-color: #ffc107 !important;
+}

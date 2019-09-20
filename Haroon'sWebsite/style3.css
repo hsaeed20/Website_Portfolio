@@ -1,0 +1,64 @@
+body {
+  background: url(img/tokyo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.navbar-brand {
+  pointer-events: none;
+}
+
+.navbar-custom {
+  background-color: #0009;
+}
+
+.nav-item:hover {
+  transition: 0.2s ease-in;
+  border-bottom: 2px solid #fff600;
+}
+
+.projects-title {
+  margin-top: 100px;
+}
+
+.jumbotron {
+  margin-top: 70px;
+  background-color: #0009 !important;
+}
+.card-deck {
+  margin-left: 15.5% !important;
+}
+.card {
+  background-color: #0009 !important;
+  border-color: white !important;
+  position: fixed;
+}
+
+.card1 {
+  display: inline-block;
+}
+
+.titles {
+}
+
+.card2 {
+  display: inline-block;
+}
+
+.card-title {
+  display: inline-block;
+}
+
+.btn-warning {
+  color: white !important;
+}
+
+.btn:hover {
+  transition: 0.2s ease-in;
+  background-color: #ffc107 !important;
+}
+
+.btn-margin {
+  margin-bottom: 0rem;
+}
